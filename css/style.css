@@ -1,0 +1,104 @@
+body{
+	background-color: yellow;
+}
+h1{
+	color: red;
+}
+
+
+.tituloMenuPrincipal{
+	color: blueviolet;
+
+}
+.tituloMenuPrincipal{
+
+}
+
+.tituloresumo{
+	color: blue;
+}
+
+.tituloLivros{
+	color: green;
+}
+
+.tituloBiografia{
+	color: orange;
+}
+
+.tituloAdptacoes{
+	color: lightblue;
+}
+body {
+
+	font: caption;
+}
+footer{
+	background-color: gray;
+}
+
+p{
+	background-color: light gray;
+}
+/* formatação do menu*/
+
+
+nav#Menu ul{
+list-style: none;
+text-transform: uppercase;
+position: absolute;
+top: -20px;
+left: 800px;
+}
+nav#Menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	webkit transition: background-color 1s;
+	moz transition: background-color 1s;
+	o transition: background-color 1s;
+	ms transition: background-color 1s;
+	transition: background-color 1s;
+}
+nav#Menu li:hover {
+	background-color: #606060; 
+}
+
+nav#Menu h2{
+	display: none;
+}
+nav#Menu a{
+	color: #000000;
+	text-decoration: none;
+}
+nav#Menu a:hover {
+	color: #ffffff;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: green;
+	text-align:center
+}
+td, th {
+  padding: .7em;
+  margin: 0;
+  text-align: center;
+}
+.logo img {
+	width: 10%;
+	
+}
+body h1 {
+position: absolute;
+left: 250px;
+top: 00;
+}
+.cabecalho{
+	display:grid;
+}
+.cabecalho{
+	display: grid-tenplate-columns;
+}
